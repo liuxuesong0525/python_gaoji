@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+{{err}}
+    <form action="" method="post">
+        {% csrf_token %}
+        账号：<input type="text" name="zh">
+        密码：<input type="text" name="mm">
+        <input type="submit" value="注册">
+        已经有账号吗？<a href="/">登录</a>！
+    </form>
+</body>
+</html>
